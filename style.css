@@ -1,0 +1,53 @@
+body{
+    background-color: #EDEBEB;
+    font-family: 'IBM Plex Mono';
+    margin 0;
+}
+
+.numbers{
+    font-size: 200pt;
+    -webkit-text-stroke: 5px black;
+    color: #EDEBEB;
+}
+
+#n1{
+    position: fixed;
+    left: 10%;
+    top: 2%;
+}
+
+#n2{
+    position: fixed;
+    left: 50%;
+    top: 20%;
+}
+
+#n3{
+    position: fixed;
+    left: 70%;
+    top: 5%;
+}
+
+/* unvisited link */
+a:link {
+    color: #EDEBEB;
+    -webkit-text-stroke: 5px black;
+}
+
+/* visited link */
+a:visited {
+    color: #EDEBEB;
+    -webkit-text-stroke: 5px black;
+}
+
+/* mouse over link */
+a:hover {
+    color: #000000;
+    -webkit-text-stroke: 5px black;
+}
+
+/* selected link */
+a:active {
+    color: #EDEBEB;
+    -webkit-text-stroke: 5px black;
+}
