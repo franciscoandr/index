@@ -1,53 +1,88 @@
 body{
-    background-color: #EDEBEB;
+    background-color: #000000;
     font-family: 'IBM Plex Mono';
     margin 0;
 }
 
+#index{
+    position: fixed;
+    color: #FFFFFF;
+    font-size: 400pt;
+    z-index: -1;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    opacity: 0.3;
+}
+
 .numbers{
-    font-size: 200pt;
-    -webkit-text-stroke: 5px black;
-    color: #EDEBEB;
+    -webkit-text-stroke: 2px white;
+    color: #000000;
 }
 
 #n1{
-    position: fixed;
-    left: 10%;
-    top: 2%;
+    font-size: 50pt;
+    left: 5%;
 }
 
 #n2{
-    position: fixed;
-    left: 50%;
-    top: 20%;
+    font-size: 50pt;
+    left: 5%;
+    top: 25%;
 }
 
 #n3{
-    position: fixed;
-    left: 70%;
-    top: 5%;
+    font-size: 50pt;
+    left: 5%;
+    top: 50%;
 }
+
+#info{
+    background-color: black;
+    position: fixed;
+    color: #FFFFFF;
+    margin-left: 80%;
+    margin-top: 20%;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 20px;
+    padding: 1%;
+    font-size: 12pt;
+}
+
+#btn1{
+    position: fixed;
+    margin-top: 45%;
+    margin-left: 95%;
+    font-size: 50pt;
+    color: #000000;
+}
+
 
 /* unvisited link */
 a:link {
-    color: #EDEBEB;
-    -webkit-text-stroke: 5px black;
+    color: #000000;
+    -webkit-text-stroke: 2px white;
+    text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-    color: #EDEBEB;
-    -webkit-text-stroke: 5px black;
+    color: #000000;
+    -webkit-text-stroke: 2px white;
+    text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
-    color: #000000;
-    -webkit-text-stroke: 5px black;
+    color: #FFFFFF;
+    -webkit-text-stroke: 2px white;
+    text-decoration: none;
 }
 
 /* selected link */
 a:active {
-    color: #EDEBEB;
-    -webkit-text-stroke: 5px black;
+    color: #000000;
+    -webkit-text-stroke: 2px white;
+    text-decoration: none;
 }
