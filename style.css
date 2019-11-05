@@ -20,6 +20,13 @@ body{
     color: #000000;
 }
 
+#btn1{
+    position: fixed;
+    margin-top: 45%;
+    margin-left: 95%;
+    font-size: 50pt;
+}
+
 #n1{
     font-size: 50pt;
     left: 5%;
@@ -49,14 +56,6 @@ body{
     padding: 1%;
     font-size: 12pt;
     display: none;
-}
-
-#btn1{
-    position: fixed;
-    margin-top: 45%;
-    margin-left: 95%;
-    font-size: 50pt;
-    color: #000000;
 }
 
 
